@@ -1,6 +1,6 @@
-generar(100);
+fizzbuzz(100);
 
-function generar(x)
+function fizzbuzz(x)
 {
     for(var i = 1; i <= x; i++)
     {
