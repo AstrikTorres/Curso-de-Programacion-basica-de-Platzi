@@ -1,22 +1,26 @@
-var numeros = 100;
-for(var i = 1; i <= 100; i++)
+generar(100);
+
+function generar(x)
 {
-    if(esDivisible(i,3))
+    for(var i = 1; i <= x; i++)
     {
-        document.write('fizz');
-    }
-    
-    if(esDivisible(i,5))
-    {
-        document.write('buzz');
-    }
+        if(esDivisible(i,3))
+        {
+            document.write('fizz');
+        }
+        
+        if(esDivisible(i,5))
+        {
+            document.write('buzz');
+        }
 
-    if(!esDivisible(i,3) && !esDivisible(i,5))
-    {
-        document.write(i);
-    }
+        if(!esDivisible(i,3) && !esDivisible(i,5))
+        {
+            document.write(i);
+        }
 
-    document.write('<br/>')
+        document.write('<br/>')
+    }
 }
 
 function esDivisible(num, divisor)
