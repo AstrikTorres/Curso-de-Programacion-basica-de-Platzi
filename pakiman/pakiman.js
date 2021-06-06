@@ -1,3 +1,8 @@
+var imagenes = [];
+imagenes['Cauchin'] = 'vaca.png';
+imagenes['Pokacho'] = 'pollo.png';
+imagenes['Tocinauro'] = 'cerdo.png';
+
 class Pakiman
 {
     constructor(n, v, a)
